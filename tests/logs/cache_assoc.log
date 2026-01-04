@@ -1,0 +1,16 @@
+
+Initialized memory of size 1024
+Cache level added
+Virtual Addr 0 -> Physical Addr 0
+Virtual Addr 64 -> Physical Addr 64
+Virtual Addr 0 -> Physical Addr 0
+
+===== CACHE HIERARCHY STATS =====
+L1 Cache
+ Hits: 1
+ Misses: 2
+ Hit Ratio: 33.33%
+
+===============================
+
+Exiting simulator

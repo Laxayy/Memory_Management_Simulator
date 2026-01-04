@@ -1,0 +1,9 @@
+Initialized memory of size 1024
+Allocator set to first_fit
+Allocated block id=1
+Allocated block id=2
+Block 1 freed
+Allocated block id=3
+[0x0000 - 0x0031] USED (id=3)
+[0x0032 - 0x0095] USED (id=2)
+[0x0096 - 0x03ff] FREE

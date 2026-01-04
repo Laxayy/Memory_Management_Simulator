@@ -1,0 +1,10 @@
+
+Initialized memory of size 1024
+Allocator set to buddy
+Allocated block id=1
+Allocated block id=2
+Block 1 freed
+[0x0000 - 0x00ff] FREE
+[0x0100 - 0x01ff] USED (id=2)
+[0x0200 - 0x03ff] FREE
+Exiting simulator

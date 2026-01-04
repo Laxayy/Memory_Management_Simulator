@@ -1,0 +1,10 @@
+init memory 2048
+cache add 128 16 2
+cache add 512 16 4
+access 0
+access 32
+access 64
+access 0
+access 32
+cache_stats
+exit

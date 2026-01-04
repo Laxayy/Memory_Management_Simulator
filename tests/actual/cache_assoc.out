@@ -1,0 +1,18 @@
+Initialized memory of size 2048
+Cache level added
+Cache level added
+Virtual Addr 0 -> Physical Addr 0
+Virtual Addr 32 -> Physical Addr 32
+Virtual Addr 64 -> Physical Addr 64
+Virtual Addr 0 -> Physical Addr 0
+Virtual Addr 32 -> Physical Addr 32
+===== CACHE HIERARCHY STATS =====
+L1 Cache
+ Hits: 2
+ Misses: 3
+ Hit Ratio: 40.00%
+L2 Cache
+ Hits: 0
+ Misses: 3
+ Hit Ratio: 0.00%
+===============================

@@ -1,0 +1,9 @@
+Memory Simulator
+Type 'help' for commands
+
+>Initialized memory of size 1024
+>Cache level added
+>Virtual Addr 0 -> Physical Addr 0
+>Virtual Addr 64 -> Physical Addr 64
+>Virtual Addr 0 -> Physical Addr 0
+>Exiting simulator

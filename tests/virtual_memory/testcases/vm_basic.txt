@@ -1,0 +1,6 @@
+init memory 1024
+access 0
+access 256
+access 0
+vm_stats
+exit

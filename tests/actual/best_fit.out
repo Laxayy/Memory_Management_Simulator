@@ -1,0 +1,12 @@
+Initialized memory of size 1024
+Allocator set to best_fit
+Allocated block id=1
+Allocated block id=2
+Allocated block id=3
+Block 2 freed
+Allocated block id=4
+[0x0000 - 0x0063] USED (id=1)
+[0x0064 - 0x00f9] USED (id=4)
+[0x00fa - 0x012b] FREE
+[0x012c - 0x015d] USED (id=3)
+[0x015e - 0x03ff] FREE

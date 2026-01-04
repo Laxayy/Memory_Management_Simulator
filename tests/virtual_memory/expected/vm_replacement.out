@@ -1,0 +1,9 @@
+Initialized memory of size 512
+Virtual Addr 0 -> Physical Addr 0
+Virtual Addr 256 -> Physical Addr 256
+Virtual Addr 512 -> Physical Addr 0
+Virtual Addr 0 -> Physical Addr 256
+===== VIRTUAL MEMORY STATS =====
+Page hits:   0
+Page faults: 4
+================================

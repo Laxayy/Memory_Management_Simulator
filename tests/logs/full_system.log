@@ -1,0 +1,48 @@
+
+Initialized memory of size 4096
+Allocator set to buddy
+Allocated block id=1
+Allocated block id=2
+Block 1 freed
+Cache level added
+Cache level added
+Virtual Addr 0 -> Physical Addr 0
+Virtual Addr 128 -> Physical Addr 128
+Virtual Addr 0 -> Physical Addr 0
+Virtual Addr 256 -> Physical Addr 256
+
+===== MEMORY STATS =====
+Total memory: 4096
+Used memory: 256
+Free memory: 3840
+Allocation success: 2
+Allocation failure: 0
+Memory utilization: 6.25%
+External fragmentation: 0.00%
+Internal fragmentation: 0.00%
+========================
+
+
+===== CACHE HIERARCHY STATS =====
+L1 Cache
+ Hits: 0
+ Misses: 4
+ Hit Ratio: 0.00%
+
+L2 Cache
+ Hits: 1
+ Misses: 3
+ Hit Ratio: 25.00%
+
+===============================
+
+===== VIRTUAL MEMORY STATS =====
+Page hits:   2
+Page faults: 2
+================================
+[0x0000 - 0x00ff] FREE
+[0x0100 - 0x01ff] USED (id=2)
+[0x0200 - 0x03ff] FREE
+[0x0400 - 0x07ff] FREE
+[0x0800 - 0x0fff] FREE
+Exiting simulator
