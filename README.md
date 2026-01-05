@@ -13,39 +13,29 @@ This project simulates how modern operating systems manage memory by combining:
 
 
 ### Supported CLI Commands
-- `init <memory_size>`  
-  Initializes the physical memory with the specified size.
 
-- `set allocator <first | best | worst | buddy>`  
-  Selects the memory allocation strategy at runtime.
-
-- `malloc <size>`  
-  Allocates a block of memory of the given size and returns a block ID.
-
-- `free <block_id>`  
-  Frees the allocated memory block associated with the given ID.
-
-- `cache add <cache_size> <block_size> <associativity>`  
-  Adds a cache level (e.g., L1, L2) to the cache hierarchy.
-
-- `access <virtual_address>`  
-  Translates a virtual address to a physical address using the virtual memory manager and accesses it through the cache hierarchy.
-
-- `stats`  
-  Displays detailed memory statistics including usage, utilization, and fragmentation.
-
-- `cache_stats`  
-  Displays hit/miss statistics for each cache level.
-
-- `vm_stats`  
-  Displays virtual memory statistics such as page hits and page faults.
-
-- `dump`  
-  Prints the current layout of physical memory blocks.
-
-- `exit`  
-  Terminates the simulator.
-
+* `init <memory_size>`  
+    Initializes the physical memory with the specified size.
+* `set allocator <first | best | worst | buddy>`  
+    Selects the memory allocation strategy at runtime.
+* `malloc <size>`  
+    Allocates a block of memory of the given size and returns a block ID.
+* `free <block_id>`  
+    Frees the allocated memory block associated with the given ID.
+* `cache add <cache_size> <block_size> <associativity>`  
+    Adds a cache level (e.g., L1, L2) to the cache hierarchy.
+* `access <virtual_address>`  
+    Translates a virtual address to a physical address using the virtual memory manager and accesses it through the cache hierarchy.
+* `stats`  
+    Displays detailed memory statistics including usage, utilization, and fragmentation.
+* `cache_stats`  
+    Displays hit/miss statistics for each cache level.
+* `vm_stats`  
+    Displays virtual memory statistics such as page hits and page faults.
+* `dump`  
+    Prints the current layout of physical memory blocks.
+* `exit`  
+    Terminates the simulator.
 
 
 ## Core Components
@@ -83,14 +73,15 @@ Supports multiple allocation strategies:
 
 ## Project Structure (High Level)
 
+```text
 Memory_Simulator/
-├── include/ # Header files 
-├── source/ # Implementation files
-├── tests/ # Testcases & expected outputs
-├── docs/ # Documentation
-├── logs/ # Generated execution logs
-└── main.cpp # Entry point
-
+├── include/      # Header files (.hpp)
+├── source/       # Implementation files (.cpp)
+├── tests/        # Testcases & expected outputs
+├── docs/         # Documentation & Design docs
+├── logs/         # Generated execution logs
+└── main.cpp      
+```
 
 ## Documentation Files
 

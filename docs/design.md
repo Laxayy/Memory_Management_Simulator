@@ -1,4 +1,5 @@
 ## 1. Overall System Architecture
+``` text
 +--------------------------------------------------+
 |                   User Input                     |
 |      (CLI commands: init, malloc, cache, etc.)   |
@@ -7,7 +8,7 @@
                            v
 +--------------------------------------------------+
 |                    main.cpp                      |
-|          Command Parser & Dispatcher              |
+|           Command Parser & Dispatcher            |
 +--------------------------+-----------------------+
                            |
         +------------------+------------------+
@@ -16,20 +17,18 @@
 +---------------+  +------------------+  +---------------------+
 | MemoryManager |  | CacheHierarchy   |  | VirtualMemoryManager|
 +---------------+  +------------------+  +---------------------+
-
-
+```
 ## 2. Memory Allocation Subsystem
 
 ### 2.1 Runtime Allocation Strategy Selection
+``` text
 +-------------------------------+
 | Allocation Strategy (runtime) |
 | First | Best | Worst | Buddy  |
 +-------------------------------+
-
-
-
+```
 ## 3. MemoryManager Internal Design
-
+``` text
 +----------------------+
 |   MemoryManager      |
 |----------------------|
@@ -56,10 +55,10 @@
 | is_free              |
 | block_id             |
 +----------------------+
-
+```
 
 ## 4. Statistics Collection Design
-
+``` text
 +---------------------+
 | MemoryManager       |
 |---------------------|
@@ -75,48 +74,49 @@
 | Utilization (%)     |
 | Fragmentation       |
 +---------------------+
-
+```
 
 ## 5. Virtual Memory System
-
+``` text 
 Virtual Address
 |
 v
 +---------------------+
-| Page Table Lookup |
+| Page Table Lookup   |
 +---------------------+
 |
 Hit / Miss
 |
 v
 +---------------------+
-| Page Replacement |
-|                  |
+| Page Replacement    |
+|                     |
 +---------------------+
-
+```
 ## 6. Cache Hierarchy Design
+``` text
 +-------------+
-| CPU |
-+-------------+
-|
-v
-+-------------+
-| L1 Cache |
+|     CPU     |
 +-------------+
 |
 v
 +-------------+
-| L2 Cache | 
+|  L1 Cache   |
++-------------+
+|
+v
++-------------+
+|  L2 Cache   | 
 +-------------+
 |
 v
 +-------------+
 | Main Memory |
 +-------------+
-
+```
 
 ## 7. End-to-End Execution Flow
-
+``` text
 User Command
 |
 v
@@ -133,4 +133,5 @@ Cache Access (L1 → L2)
 |
 v
 Stats Updated
+```
 
